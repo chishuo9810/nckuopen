@@ -15,7 +15,7 @@
 執行方式請先把 test.py 跑起來，假設沒有要放到網路上只是要放在報到處方便大家查編號的電腦，可以進入 "http://127.0.0.1:5000" 就好，這樣就不會受到 ngrok 影響，但外網無法連結
 ![image](https://github.com/user-attachments/assets/2a8d726a-a5a4-4eb9-b921-3491eb758dc5)
 
-若要讓外網可以進入，打開 ngrok 並執行 "ngrok http 5000"，執行後應會出現類似下圖畫面
+若要讓外網可以進入，打開 ngrok 並執行 "ngrok http 5000"，執行後應會出現類似下圖畫面，請打開 forwarding 那行的網址
 ![image](https://github.com/user-attachments/assets/4f208195-41f5-4dec-8b4c-23aadef71406)
 
 打開網址會出現這樣的畫面
