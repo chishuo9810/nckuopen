@@ -6,7 +6,7 @@
 
 ![image](https://github.com/user-attachments/assets/5f144b85-136d-40c8-9140-a55ebe23f16a)
 
-* "find_number.py" 是利用 flask 架起來的網路架構，由於沒有 server ，必須使用 ngrok 輔助，本資料夾也有 ngrok，但每年可版本不同請重新下載
+* "find_number.py" 是利用 flask 架起來的網路架構，由於沒有 server ，必須使用 ngrok 輔助，本資料夾也有 ngrok，但每年版本可能不同，建議去官網下載
 
   * 執行方式請先在正確的路徑資料夾開啟 cmd window 輸入 "python ./find_number.py" 執行本地端，假設只是要把電腦放在報到處方便大家查編號，可以在該電腦開啟 "http://127.0.0.1:5000" 就好，這樣就不會受到 ngrok 影響，但外網無法存取
 
