@@ -36,6 +36,8 @@
 
   ![image](https://github.com/user-attachments/assets/13f14495-b621-4815-acc8-2fd7f4c4cbc4)
 
+* [示範影片(畫質有點差)](https://www.youtube.com/watch?v=RBIWmHeSh7Q)
+
 * "templates" 是用 html 寫的網頁架構，很陽春，可以修改
 
 * 記得把 excel 表單放在同一層資料夾，必要的話 test.py 以及 find_number.py 內的路徑及名稱必須更動
