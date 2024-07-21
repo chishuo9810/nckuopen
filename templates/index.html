@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>Input Window</title>
+    <title>成大羽球公開賽</title>
     <style>
         body {
             display: flex;
@@ -12,9 +12,16 @@
             margin: 0;
             font-family: Helvetica, Arial, sans-serif;
             background-color: #f0f0f0;
+            /*可加圖片但有點醜*/
+            /* background-image: url('../static/images/2024.jpg'); */ 
+            background-size: cover;
+            background-position: center;
         }
         .container {
             text-align: center;
+            background-color: rgba(255, 255, 255, 1); 
+            padding: 20px;
+            border-radius: 10px;
         }
         h1 {
             font-size: 36px;
@@ -40,13 +47,13 @@
         </form>
 
         {% if player_name %}
-            <div class="result" style="font-size: {{ font_size }}px;">
+            <div class="result" style="font-size: 60px; color: red;">
                 姓名: {{ player_name }}, 號碼: {{ player_number }}, 尺寸: {{ size }}
             </div>
-            <div>
+            <div style="font-size: 50px;">
                 項目1: {{ first }}, 項目2 : {{ second }}
             </div>
-            <div>
+            <div style="font-size: 60px;">
                 隊名: {{ team_name }}
             </div>
         {% elif error %}
